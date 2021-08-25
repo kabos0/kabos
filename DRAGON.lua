@@ -743,7 +743,7 @@ end
 function Addmp3(msg,chat,kkl,ffrr)
 local eer = json:decode(https.request('https://api.telegram.org/bot'.. token..'/getfile?file_id='..kkl)) 
 download_to_file('https://api.telegram.org/file/bot'..token..'/'..eer.result.file_path,ffrr) 
-sendAudio(msg.chat_id_,msg.id_,'./'..ffrr,"  MICKEY♥")  
+sendAudio(msg.chat_id_,msg.id_,'./'..ffrr,"  𝙆 𝘼 𝘽 𝙊 𝙎")  
 os.execute('rm -rf ./'..ffrr) 
 end
 function Addsticker(msg,chat,Sd,rre)
@@ -1373,7 +1373,7 @@ local Text = [[
 ]]
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = 'مطورين السورس⚙', url="t.me/US_ROGEN"}}, 
+{{text = 'مطورين السورس⚙', url="t.me/ U_X_F"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/ROOGEN1/4&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -1445,11 +1445,13 @@ end
 if text == 'قناه السورس' and DevSoFi(msg) then
 database:del(bot_id..'Srt:Bot') 
 local Text = [[ 
+
 ┍━━━━━☛ ᴠᴏʟᴛᴀʀ ☚━━━━━┑
      ᴡᴇʟᴄᴏᴍ ᴛᴏ ѕᴏᴜʀᴄѕ ᴠᴏʟᴛᴀʀ
   ᴛʜᴇ ʙᴇsᴛ ѕᴏᴜʀᴄѕ ᴏɴ ᴛᴇɪᴇɢʀᴀᴍ
       ᴠᴏʟᴛᴀʀ ɪɴ ʙᴏᴜᴛᴛᴏɴs ʙᴇʟᴏʟ
 ┕━━━━━☛ ᴠᴏʟᴛᴀʀ ☚━━━━━┙
+
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
@@ -15002,7 +15004,7 @@ Msᴀɢ ~ #msgs
 𓄼 𝗖𝗛 - ↝@V_O_L_T_E_R↜ ◉.
 ]],
 [[
-𝐓𝐓• 𝐘𝐎𝐔𝐑 ??𝐃 𖠰 #id .
+𝐓𝐓• 𝐘??𝐔𝐑 ??𝐃 𖠰 #id .
 𝐓𝐓• 𝐌𝐬𝐠𝐒 𖠰 #msgs .
 𝐓𝐓• 𝐔𝐬𝐞??𝐍𝐚 𖠰 #username .
 𝐓𝐓• 𝐒𝐓𝐀𝐒𝐓 𖠰 #stast .
