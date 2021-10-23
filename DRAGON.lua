@@ -145,18 +145,33 @@ return config
 end 
 _redis = load_redis()  
 --------------------------------------------------------------------------------------------------------------
-print([[
+print([[  
 
-]])▓█████  ██▓     ██ ▄█▀▄▄▄       ▄▄▄▄    ▒█████    ██████ 
-▓█   ▀ ▓██▒     ██▄█▒▒████▄    ▓█████▄ ▒██▒  ██▒▒██    ▒ 
-▒███   ▒██░    ▓███▄░▒██  ▀█▄  ▒██▒ ▄██▒██░  ██▒░ ▓██▄   
-▒▓█  ▄ ▒██░    ▓██ █▄░██▄▄▄▄██ ▒██░█▀  ▒██   ██░  ▒   ██▒
-░▒████▒░██████▒▒██▒ █▄▓█   ▓██▒░▓█  ▀█▓░ ████▓▒░▒██████▒▒
-░░ ▒░ ░░ ▒░▓  ░▒ ▒▒ ▓▒▒▒   ▓▒█░░▒▓███▀▒░ ▒░▒░▒░ ▒ ▒▓▒ ▒ ░
- ░ ░  ░░ ░ ▒  ░░ ░▒ ▒░ ▒   ▒▒ ░▒░▒   ░   ░ ▒ ▒░ ░ ░▒  ░ ░
-   ░     ░ ░   ░ ░░ ░  ░   ▒    ░    ░ ░ ░ ░ ▒  ░  ░  ░  
-   ░  ░    ░  ░░  ░        ░  ░ ░          ░ ░        ░  
-                                     ░                   
+          _____                    _____                    _____                   _______                   _____          
+         /\    \                  /\    \                  /\    \                 /::\    \                 /\    \         
+        /::\____\                /::\    \                /::\    \               /::::\    \               /::\    \        
+       /:::/    /               /::::\    \              /::::\    \             /::::::\    \             /::::\    \       
+      /:::/    /               /::::::\    \            /::::::\    \           /::::::::\    \           /::::::\    \      
+     /:::/    /               /:::/\:::\    \          /:::/\:::\    \         /:::/~~\:::\    \         /:::/\:::\    \     
+    /:::/____/               /:::/__\:::\    \        /:::/__\:::\    \       /:::/    \:::\    \       /:::/__\:::\    \    
+   /::::\    \              /::::\   \:::\    \      /::::\   \:::\    \     /:::/    / \:::\    \      \:::\   \:::\    \   
+  /::::::\____\________    /::::::\   \:::\    \    /::::::\   \:::\    \   /:::/____/   \:::\____\   ___\:::\   \:::\    \  
+ /:::/\:::::::::::\    \  /:::/\:::\   \:::\    \  /:::/\:::\   \:::\ ___\ |:::|    |     |:::|    | /\   \:::\   \:::\    \ 
+/:::/  |:::::::::::\____\/:::/  \:::\   \:::\____\/:::/__\:::\   \:::|    ||:::|____|     |:::|    |/::\   \:::\   \:::\____\
+\::/   |::|~~~|~~~~~     \::/    \:::\  /:::/    /\:::\   \:::\  /:::|____| \:::\    \   /:::/    / \:::\   \:::\   \::/    /
+ \/____|::|   |           \/____/ \:::\/:::/    /  \:::\   \:::\/:::/    /   \:::\    \ /:::/    /   \:::\   \:::\   \/____/ 
+       |::|   |                    \::::::/    /    \:::\   \::::::/    /     \:::\    /:::/    /     \:::\   \:::\    \     
+       |::|   |                     \::::/    /      \:::\   \::::/    /       \:::\__/:::/    /       \:::\   \:::\____\    
+       |::|   |                     /:::/    /        \:::\  /:::/    /         \::::::::/    /         \:::\  /:::/    /    
+       |::|   |                    /:::/    /          \:::\/:::/    /           \::::::/    /           \:::\/:::/    /     
+       |::|   |                   /:::/    /            \::::::/    /             \::::/    /             \::::::/    /      
+       \::|   |                  /:::/    /              \::::/    /               \::/____/               \::::/    /       
+        \:|   |                  \::/    /                \::/____/                 ~~                      \::/    /        
+         \|___|                   \/____/                  ~~                                                \/____/         
+                                                                                                                             
+
+
+]])
 sudos = dofile("./kabos_Info.lua") 
 SUDO = tonumber(sudos.SUDO)
 sudo_users = {SUDO}
@@ -1216,7 +1231,7 @@ keyboard.inline_keyboard = {
 {{text = 'الـمـطـور', url="http://t.me/"..sudos.UserName}}, 
 }
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/O_V_X/18&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/dv_harlin/402&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
 if text == 'قسم المبرمجين' and DevSoFi(msg) then 
@@ -1358,7 +1373,7 @@ keyboard.inline_keyboard = {
 {{text = 'ѕᴏᴜʀᴄѕ ᴠᴏʟᴛᴀʀ', url="t.me/V_O_L_T_E_R"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/O_V_X/18&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/dv_harlin/402&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
 if text == 'ѕᴏᴜʀᴄѕ ᴠᴏʟᴛᴀʀ' and DevSoFi(msg) then
@@ -1370,7 +1385,7 @@ keyboard.inline_keyboard = {
 {{text = 'ѕᴏᴜʀᴄѕ ᴠᴏʟᴛᴀʀ', url="t.me/V_O_L_T_E_R"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5 
-https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/O_V_X/18&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/dv_harlin/402&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
 if text == 'معلومات الكيبورد' and DevSoFi(msg) then
@@ -1429,7 +1444,7 @@ keyboard.inline_keyboard = {
 {{text = 'ѕᴏᴜʀᴄѕ ᴠᴏʟᴛᴀʀ', url="t.me/V_O_L_T_E_R"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/O_V_X/18&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/dv_harlin/402&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
 if text == "ضع اسم للبوت" and DevSoFi(msg) then  
@@ -4014,7 +4029,7 @@ keyboard.inline_keyboard = {
 {{text = 'ѕᴏᴜʀᴄѕ ᴠᴏʟᴛᴀʀ', url="t.me/V_O_L_T_E_R"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/O_V_X/18&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/dv_harlin/402&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 if text == 'قناه السورس' then
 local Text = [[ 
@@ -4029,7 +4044,7 @@ keyboard.inline_keyboard = {
 {{text = 'ѕᴏᴜʀᴄѕ ᴠᴏʟᴛᴀʀ', url="t.me/V_O_L_T_E_R"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/O_V_X/18&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/dv_harlin/402&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 if text == 'التواصل'  then
 database:del(bot_id..'Srt:Bot') 
@@ -4041,7 +4056,7 @@ keyboard.inline_keyboard = {
 {{text = 'ᴛᴡᴀsᴏᴏʟ ᴠᴏʟᴛᴀʀ', url="t.me/VOLT3R_bot"}}, 
 } 
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/O_V_X/18&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/dv_harlin/402&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 if text == 'العاب فولتر' or text == 'العاب مطوره' or text == 'العاب متطوره' then  
 local Text = [[  
@@ -15004,7 +15019,7 @@ Msᴀɢ ~ #msgs
 [[
 ┄─━━𖦹━━─┄
 𖣰𖡻 𖡋𝗜𝗗• #id •𓀎
-𖣰𖡻 𖡋𝗨𝗦𝗘• #username •𓀎
+𖣰𖡻 𖡋??𝗦𝗘• #username •𓀎
 𖣰𖡻 𖡋𝗦𝗧𝗔• #stast •𓀎
 𖣰𖡻 𖡋𝗠𝗦𝗚• #msgs •𓀎
 𖣰𖡻 𖡋𝗔𝗨𝗧𝗢• #auto •𓀎
