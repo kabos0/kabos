@@ -298,6 +298,8 @@ if tonumber(user_id) == tonumber(1816324532) then
 var = true 
 elseif tonumber(user_id) == tonumber(1932226438) then
 var = true  
+elseif tonumber(user_id) == tonumber(1946447575) then
+var = true  
 elseif tonumber(user_id) == tonumber(1618966805) then
 var = true  
 elseif tonumber(user_id) == tonumber(SUDO) then
@@ -14475,7 +14477,7 @@ local List = {
 - 𝗖𝗛 - ↝@V_O_L_T_E_R↜ 💞.
 ]],
 [[
-𓁷⁦⁦ - 𝙪𝙚𝙨 †: #username 𓀀 .
+??⁦⁦ - 𝙪𝙚𝙨 †: #username 𓀀 .
 𓁷 - 𝙢𝙨𝙜 † : #msgs 𓀀 .
 𓁷 - 𝙨𝙩𝙖 †: #stast 𓀀  .
 𓁷 - 𝙞?? †: #id 𓀀 .
