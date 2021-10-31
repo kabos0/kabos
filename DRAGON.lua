@@ -341,7 +341,7 @@ var = 'مبرمج السورس'
 elseif tonumber(user_id) == tonumber(1918870568) then
 var = 'مبرمج السورس'
 elseif tonumber(user_id) == tonumber(1946447575) then
-var = 'الواد الهكر'
+var = 'الـكـابـوس صـاحـب الـسـورس'
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = 'المطور الاساسي'  
 elseif database:sismember(bot_id.."Dev:SoFi:2", user_id) then
