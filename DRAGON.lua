@@ -1356,6 +1356,7 @@ if text == 'الاصدار' and DevSoFi(msg) then
 database:del(bot_id..'Srt:Bot') 
 send(msg.chat_id_, msg.id_,' ◉ اصدار سورس فولتر{ 3x◉}')
 end
+
 if text == 'مبرمجين السورس' then
 local Text = [[ 
 قناه مطورين السورس 🍂
